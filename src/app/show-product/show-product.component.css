@@ -176,12 +176,12 @@
         }
     .gridItem{
         background-color: #1e0426;
-        width: 300%;
+        width: 350%;
         padding: 5%;
     }
     .gridItem2{
         background-color: #ffffff;
-        width: 300%;
+        width: 350%;
         color: black;
         padding: 5%;
     }
@@ -599,12 +599,23 @@
       }
       .Details{
         float: right;
-        margin-right: 66%;
+        margin-right: 50%;
         color: #fff;
         width: 33%;
         font-size: 135%;
         margin-top: 6%;
     }
+    .gridItem{
+      background-color: #1e0426;
+      width: 250%;
+      padding: 5%;
+  }
+  .gridItem2{
+      background-color: #ffffff;
+      width: 250%;
+      color: black;
+      padding: 5%;
+  }
     .gridDetals {
       display: grid;
       grid-template-columns: 8rem;
@@ -615,7 +626,7 @@
     width: 65%;
 }
 .cccc{
-  margin-top: 135%;
+  margin-top: 100%;
   margin-left: 5%;
   color: white;
 }
@@ -624,8 +635,5 @@
 }
 .header2{
   font-size: 100%;
-}
-.hh1{
-  font-size: 150%;
 }
 }
