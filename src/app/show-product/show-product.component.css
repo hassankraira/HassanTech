@@ -176,12 +176,12 @@
         }
     .gridItem{
         background-color: #1e0426;
-        width: 350%;
+        width: 300%;
         padding: 5%;
     }
     .gridItem2{
         background-color: #ffffff;
-        width: 350%;
+        width: 300%;
         color: black;
         padding: 5%;
     }
@@ -599,10 +599,11 @@
       }
       .Details{
         float: right;
-        margin-right: 75%;
-        color: white;
+        margin-right: 66%;
+        color: #fff;
+        width: 33%;
         font-size: 135%;
-        margin-top: 6%
+        margin-top: 6%;
     }
     .gridDetals {
       display: grid;
