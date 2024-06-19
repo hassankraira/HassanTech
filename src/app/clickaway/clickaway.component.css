@@ -445,7 +445,17 @@
       margin-top: 5%;
     }
     @media (max-width:1080px) {
-     
+     .hh{
+      text-align: center;
+        width: 88%;
+        padding: 1.4%;
+        margin-left: 7%;
+        margin-bottom: 15%;
+        background-color: #330740;
+        color: #fff;
+        transform: rotate(28deg) translate(15px) translateY(30px) rotate(-32deg);
+    }
+     }
       .svgpath {
        height: 95rem;
       }
