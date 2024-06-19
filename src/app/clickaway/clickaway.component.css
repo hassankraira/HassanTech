@@ -48,8 +48,8 @@
       width: 83%;
     }
     .clickAway img{
-      width: 74%;
-      margin-left: 15%;
+      width: 45%;
+      margin-left: 56%;
       margin-top: 10%;
       float: none;
     }
@@ -348,11 +348,7 @@
     .clickAway{
       background: linear-gradient(165deg, #1f2937 0%, #1f2937 50%, #111827 50%, #111827 100%);
     }
-    .clickAway img{
-      width: 50%;
-      margin-left: 55%;
-  
-    }
+
     .cont{
       border-radius: 10px;
       background-color: rgba(255, 255, 255, 0.25);
@@ -445,17 +441,28 @@
       margin-top: 5%;
     }
     @media (max-width:1080px) {
+
      .hh{
+      margin-top: 50%;
       text-align: center;
-        width: 88%;
-        padding: 1.4%;
-        margin-left: 7%;
-        margin-bottom: 15%;
-        background-color: #330740;
-        color: #fff;
-        transform: rotate(28deg) translate(15px) translateY(30px) rotate(-32deg);
+      width: 88%;
+      padding: 1.4%;
+      margin-left: 7%;
+      margin-bottom: 15%;
+      background-color: #330740;
+      color: #fff;
+      transform: rotate(28deg) translate(15px) translateY(30px) rotate(-32deg);
+ 
     }
+    .clickAway img{
+      width: 90%;
+      margin-left: 7%;
+      margin-top: -3%;
+      float: none;
+  }
+    
      }
+     
       .svgpath {
        height: 95rem;
       }
@@ -494,15 +501,11 @@
       margin-left: 20%;
     }
     .cont{
-      margin-top: 5%;
+      margin-top: -30%;
+      margin-left: 11%;
       width: 83%;
     }
-    .clickAway img{
-      width: 74%;
-      margin-left: 15%;
-      margin-top: 10%;
-      float: none;
-    }
+ 
     
     .btns{
       width: 72%;
