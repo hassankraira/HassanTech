@@ -442,7 +442,7 @@ color: #ffffff;
   @media (max-width:1080px) {
     .abc {
       position: relative;
-      font-size: 10px;
+      font-size: 7px;
       text-decoration: none;
       }
     .svgpath {
