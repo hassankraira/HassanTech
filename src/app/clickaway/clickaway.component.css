@@ -55,8 +55,9 @@
     }
     
     .btns{
-      width: 37%;
-    }
+      width: 45%;
+      margin-left: 0%;
+        }
     /* General Styles */
     .body {
       width: 100%;
@@ -494,8 +495,9 @@
     }
     
     .btns{
-      width: 37%;
-    }
+      width: 45%;
+      margin-left: 0%;
+        }
     }
     @media (min-width:1067px) {
       .grid{
