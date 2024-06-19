@@ -158,8 +158,9 @@ a:hover{
 }
   @media (max-width:1080px) {
     .folow{
-      grid-template-columns: 7% 7% 7% 7% 7% ;
-    }
+      grid-template-columns: 15% 15% 15% 15% 15%;
+      width: 80%;
+        }
   
     .sss{
       width: 100%;
