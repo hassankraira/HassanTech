@@ -50,33 +50,33 @@
   margin-top: -13%;
   }
   #in {
-    background: url(./assets/in.png) no-repeat center center;
+    background: url(C:/Users/msi/HassanTech3/src/assets/in.png) no-repeat center center;
     background-size: contain; 
     width: 50px;
     height: 50px;
   }
   #in:hover{
- background: url(./assets/in1.png);
+ background: url(C:/Users/msi/HassanTech3/src/assets/in1.png);
  background-size: contain; 
 
  background-repeat: no-repeat;
 
   }
   #face {
-    background: url(./assets/face.png);
+    background: url( C:/Users/msi/HassanTech3/src/assets/face.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 65px;
     height: 65px;
   }
   #face:hover{
- background: url(./assets/face1.png);
+ background: url(C:/Users/msi/HassanTech3/src/assets/face1.png);
  background-size: contain; 
  background-repeat: no-repeat;
 
   } 
    #x{
-    background: url(./assets/x.png);
+    background: url(C:/Users/msi/HassanTech3/src/assets/x.png);
     width: 55px;
     background-size: contain;
     height: 55px;
@@ -84,13 +84,13 @@
 
   }
   #x:hover{
- background: url(./assets/x1.png);
+ background: url(C:/Users/msi/HassanTech3/src/assets/x1.png);
  background-size: contain;
  background-repeat: no-repeat;
 
   } 
    #insta {
-    background: url(./assets/insta.png);
+    background: url(C:/Users/msi/HassanTech3/src/assets/insta.png);
     background-size: contain;
     width: 55px;
     height: 55px;
@@ -98,14 +98,14 @@
 
   }
   #insta:hover{
- background: url(./assets/insta1.png);
+ background: url(C:/Users/msi/HassanTech3/src/assets/insta1.png);
  background-size: contain;
 
  background-repeat: no-repeat;
 
   } 
    #wat {
-    background: url(./assets/wat.png);
+    background: url(C:/Users/msi/HassanTech3/src/assets/wat.png);
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -113,11 +113,9 @@
     height: 50px;
   }
   #wat:hover{
- background: url(./assets/wat1.png);
+ background: url(C:/Users/msi/HassanTech3/src/assets/wat1.png);
  background-size: contain;
-
  background-repeat: no-repeat;
-
   }  
   .folow{
     display: grid;
