@@ -1,0 +1,206 @@
+<div class="ssmal">
+<div class="body">
+    <div class="ff">
+      <h2 (click)="appComponents.showProductsCat=false">
+        <strong class="gradient-text" style="font-size: 155%;">Exporter and Supplier of Top-Grade Computer Accessories like Keyboards, Mice, and Headphones</strong>
+        <br><br><br>
+        <strong style="font-size: 76%; color: white;">Unlock a world of exceptional quality, competitive pricing, and premium computer accessories that will set your business apart from the competition.</strong>
+      </h2>               
+      <br><br>
+      <div style="text-align: center;" (click)="appComponents.showProductsCat=false">
+        <a #s (click)="HomeComponent.selected('P')" (click)="ssss()" routerLink="/Products" type="button" class="bbb a">Get Started</a>
+        <a #d type="button" (click)="HomeComponent.selected('C')" routerLink="/ContactUs" class="bbb2 a">Contact Us</a>
+      </div>
+      <br>
+    </div>
+    <div class="video-background" (click)="appComponents.showProductsCat=false">
+      <video (play)="true" autoplay="true" muted="true" loop id="bg-video" src="assets/background-home1.mp4"></video>
+    </div>
+  </div>
+  <div style="background-color: rgb(31 41 55);">
+  <div class="svgpath">
+    <br><br>
+  <div class="paragraph ">
+     
+    <h1 class="grid-item">
+      Products Categories
+    </h1>
+    <br><br><br>
+    <p class="pppc">
+      As a reputable exporter in the industry, we take pride in offering a diverse array of agricultural products that cater to the needs of importers, distributors, and retailers worldwide. From frozen fruits and vegetables, fresh produce, aromatic herbs, exotic spices, to delectable pickles, our extensive catalog showcases the richness and diversity of Egypt's agricultural bounty.
+    </p>
+    <br><br><br><br>
+  </div>
+<div class="grid-container " >
+  <div class="grid-item ppp" *ngFor="let cc of categores;">
+    <button (click)="up()"(click)="HomeComponent. selected('P')" routerLink="/Products/{{cc.name}}" class="header btn">{{cc.name}}</button>
+    <a  (click)="up()"(click)=" HomeComponent.selected('P')" routerLink="/Products/{{cc.name}}" ><img class="img" src={{cc.img}} alt=""></a>
+    
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <div class="whytop">
+  <h1>
+   <strong> Why Choose Hassan Tech</strong>
+</h1>
+   
+
+<p>
+  Simply tap on each card to flip it and read more information!
+</p>
+</div>
+  <div class="why">
+    <img class="whyImage" src="assets/why-tech.png" alt="">
+
+    <br><br>
+ 
+    <div class="why1">
+
+<div class="grid">
+ <div  class="griditem">
+  
+  <div class="griditem-inner">
+    <div class="griditem-front">
+      <img src="assets/tech-safety.png" alt="">
+      <br><br>
+      <button class="btn"><strong>Tech safety →</strong></button>
+    </div>
+    <div class="griditem-back">
+      <img src="assets/tech-safety.png" alt="">
+      <ul>
+      <li>ISO 22000</li>
+        <li>Non GMO</li>
+       <li> Halal Certification</li>
+       <li> GMP</li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  <div  class="griditem">
+    <div class="griditem-inner">
+      <div class="griditem-front">
+        <img src="assets/quality.png" alt="">
+        <br><br>
+        <button class="btn"><strong>Quality Control →</strong></button>
+      </div>
+      <div class="griditem-back">
+        <img src="assets/quality.png" alt="">
+        <ul>
+       <li>ISO 9001</li> 
+         <li>HACCP</li>
+         <li> BRC Storage</li>
+</ul>
+      </div>
+    </div>
+  </div>
+  <div  class="griditem">
+    <div class="griditem-inner">
+      <div class="griditem-front">
+        <img src="assets/CompetitivePrices.png" alt="">
+        <br><br>
+        <button class="btn"><strong>Competitive Prices →</strong></button>
+      </div>
+      <div class="griditem-back">
+        <img src="assets/CompetitivePrices.png" alt="">
+<ul>
+  <li>Lowest price for best quality</li>
+</ul>
+      </div>
+    </div>
+  </div>
+  <div  class="griditem">
+    <div class="griditem-inner">
+      <div class="griditem-front">
+        <img src="assets/FlexiblePayments.png" alt="">
+        <br><br>
+        <button class="btn"><strong>Tech safety →</strong></button>
+      </div>
+      <div class="griditem-back">
+        <img src="assets/FlexiblePayments.png" alt="">
+<ul>
+  <li>LC</li>
+  <li>T.T</li>
+</ul>
+      </div>
+    </div>
+  </div>
+  <div  class="griditem">
+    <div class="griditem-inner">
+      <div class="griditem-front">
+        <img src="assets/SuperbServices.png" alt="">
+        <br><br>
+        <button class="btn"><strong>Superb Services →</strong></button>
+      </div>
+      <div class="griditem-back">
+        <img src="assets/SuperbServices.png" alt="">
+<ul>
+  <li>
+    Fast delivery
+ </li>
+ <li>
+Rapid respond
+ </li>
+ <li>
+Packaging flexibility
+ </li>
+</ul>
+      </div>
+    </div>
+  </div>
+  <div  class="griditem">
+    <div class="griditem-inner">
+      <div class="griditem-front">
+        <img src="assets/ProductWarranty.png" alt="">
+        <br><br>
+        <button class="btn"><strong>Product Warranty →</strong></button>
+      </div>
+      <div class="griditem-back">
+        <img src="assets/ProductWarranty.png" alt="">
+<ul>
+  <li>
+technecal quality
+  </li>
+  <li>
+All sizes as requested
+  </li>
+  <li>
+Stored in the optimal temperature
+  </li>
+  <li>
+Packaged as requested
+  </li>
+</ul>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+</div>
+
+
+</div>
+
+<div class="AboutUs">
+  <img  src="assets/about-sanu.png" alt="">
+  <div class="AAA">
+  <h1>About Us</h1>
+  <h4>Your Key to the Egyptian Agricultural</h4>
+  <p>
+    HeassanTech is a prominent agricultural exporter and supplier, offering a diverse range of high-quality produce. With a commitment to excellence and customer satisfaction, we have established ourselves as a preferred choice in the industry. Our extensive network of trusted farms allows us to provide a wide selection of premium agricultural items.
+    <br><br>
+
+We prioritize quality, ensuring our products meet the highest standards. With efficient logistics and personalized support, we guarantee timely and reliable deliveries.
+<br><br>
+
+Trust, transparency, and ethical practices are the foundation of our business. Whether you're an importer, distributor, or retailer, we can meet your needs with customizable packaging options.
+  </p>
+</div>
+</div>
+
+
+<app-clickaway></app-clickaway>
+</div>
+<app-bottom></app-bottom>

@@ -1,0 +1,91 @@
+  <div class="bodyy">
+  <div  class="nave">
+    <a style="color: white; font-weight: 900;" href=""><img src="assets/Home.png" alt=""> Home Page </a>
+    <svg class="sse" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+    </svg>   
+    <a href="http://localhost:4200/Products"><strong>Products</strong></a>
+    <svg class="sse" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+      </svg>   
+    <a  routerLink="../../{{aa.ProductCategories}}"> <strong>{{aa.ProductCategories}}</strong></a>
+    <svg class="sse" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+    </svg>  
+    <a ><strong>{{aa.ProductName}}</strong></a>
+</div>
+<div>
+<img class="immg" src="{{aa.ProductImageURl}}" alt="">
+<button style="margin-right: 24%;" class="btn btns">Quick Price Request</button>
+<div  >
+  <div class="ppname">
+    {{aa.ProductName}}
+    <br>
+    <p>
+    {{aa.descripion}}
+  </p>
+  </div>
+
+
+  <div class="Details">
+ <strong> Details</strong>
+ <br>
+ <div  class="gridDetals">
+<div class="gridItem">
+ Contruy : <div class="ddddddddd"> {{aa.contry}}</div>
+</div>
+<div class="gridItem2">
+Price : <div class="ddddddddd">  {{aa.ProductPrice}}  $$</div>
+</div>
+<div class="gridItem">
+backlighting :<div class="ddddddddd"> {{aa.backlighting}}</div>
+ </div>
+ <div class="gridItem2">
+connectivity : <div class="ddddddddd"> {{aa.connectivity}} </div>
+ </div>
+<div class="gridItem">
+dimensions : <div class="ddddddddd"> {{aa.dimensions}}</div>
+</div>
+<div class="gridItem2">
+  keyRollover : <div class="ddddddddd"> {{aa.keyRollover}}</div>
+  </div>
+  <div class="gridItem">
+    switchType : <div class="ddddddddd"> {{aa.switchType}}</div>
+    </div>
+    <div class="gridItem2">
+      weight :  <div class="ddddddddd">{{aa.weight}}</div>
+      </div>
+</div>
+</div> 
+</div>
+</div>
+</div>
+
+<div   style="background-color: rgb(31 41 55);text-align: center;">
+  <br><br><br>
+  <strong> <h1 style="color: white;" class="cccc" >Same Category Products</h1></strong>
+
+  <div   class="grid-container">
+    <div class="grid-item ppp" (click)="selected(product)"  [routerLink]="'../'+product.ProductName" *ngFor="let product of ss">
+      <a  (click)="selected(product)"  [routerLink]="'../'+product.ProductName">  <img  class="img" [src]="product.ProductImageURl" alt=""></a>
+      <div class="underimg">
+        <br>
+
+      <h4><a (click)="selected(product)"  [routerLink]="'../'+product.ProductName" class="btnsc abc" >{{product.ProductName}}</a></h4>
+<br>
+      </div>
+    </div>
+  </div>
+  <div class="svgpath">
+    <br><br><br>
+  <strong> <h1 style="color: white;">Other Products` Categories</h1></strong>
+    <div class="grid-container " >
+      <div class="grid-item ppp" *ngFor="let cc of ccc;">
+        <button (click)="up()" routerLink="/Products/{{cc.name}}" class="header2 btn">{{cc.name}}</button>
+        <a  (click)="up()" routerLink="/Products/{{cc.name}}" ><img class="img2" src={{cc.img}} alt=""></a>
+        
+        </div>
+      </div>
+  </div>
+  </div>
+<router-outlet></router-outlet>

@@ -1,0 +1,82 @@
+<div>
+   <div class="didd" style="background-image: url(assets/contactusbackground.png);">
+    <div class="bodyy">
+      <div class="get2">
+        <h1>
+         <strong> Get in touch</strong>
+    
+        </h1>
+        <br>
+        <p class="ffs">
+            
+            We're here to help and answer any questions you might have. We look forward to hearing from you, so let's get this conversation started.
+         
+        </p>
+      </div>
+    <div class="user-input-wrp">
+        <br>
+        <input type="text" class="inputText" required/>
+        <span class="floating-label">Your Name</span>
+        <br>     
+
+      </div>
+      <div class="user-input-wrp">
+        <br>    
+
+        <input type="text" class="inputText" required/>
+        <span class="floating-label">Company</span>
+      </div>
+      <div class="user-input-wrp">
+        <br>      
+
+        <input type="text" class="inputText" required/>
+        <span class="floating-label">Email address</span>
+      </div>
+      <div class="user-input-wrp">
+        <br>      
+
+        <input type="text" class="inputText" required/>
+        <span class="floating-label">Phone</span>
+      </div>
+      <br>
+      <div class="user-input-wrp">
+        <textarea class="inputText" style="height:150px" required></textarea>
+        <span class="floating-label">Messages</span>
+      </div>
+      <button class="btn btns"><strong>Send message</strong></button>
+      <br><br>
+    </div>
+    <div class="get">
+    <h1>
+     <strong> Get in touch</strong>
+
+    </h1>
+    <br>
+    <p class="ffs">
+        
+        We're here to help and answer any questions you might have. We look forward to hearing from you, so let's get this conversation started.
+     
+    </p>
+  </div>
+  <div class="inin">
+    <div *ngFor="let i of info" class="asdf">
+      <img class="img" src={{i.img}}  alt="">
+      <p class="info">
+     {{i.information1}}<br>
+
+      {{i.information2}} <br>
+      {{i.information3}}
+    </p>
+        </div>
+      </div>
+        <div>
+          <h3><strong> Additional Office Locations</strong> </h3> <br>
+          <h5>  Palestine </h5>
+      <h5> Al Senaa St</h5>
+      <h5> Gaza City, 00970</h5>
+          </div>
+   </div>
+  </div>
+   <div >
+   <app-bottom ></app-bottom>
+  </div>

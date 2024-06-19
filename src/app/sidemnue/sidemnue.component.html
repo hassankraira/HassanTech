@@ -1,0 +1,58 @@
+<div class="nave">
+    <strong>
+      <a #H id="H" (click)="slected([P,F,C],false,H)" routerLink="/Home" class="btns a selected">HomePage</a>
+      <br>      <br>
+
+      <a #P id="P" (click)="slected([P,F,C],!appComponents.showProductsCat)" routerLink="false" style="align-items: center;" class="btns a">Products v
+        <div class="productsCata" *ngIf="appComponents.showProductsCat">
+          <strong>
+            <ul>
+              <br>
+
+              <li>
+                <button (click)="slected([H,F,C],!appComponents.showProductsCat,P)" (click)="appComponents.showP()" routerLink="/Products/Keyboards" class="item-text">Keyboards</button>
+                <br><br>
+
+              </li>
+              <br>
+
+              <li>
+                <button (click)="slected([H,F,C],!appComponents.showProductsCat,P)" (click)="appComponents.showP()"  routerLink="/Products/Mice" class="item-text">Mice</button>
+                <br><br>
+
+              </li>
+
+              <li>
+                <button (click)="slected([H,F,C],!appComponents.showProductsCat,P)" (click)="appComponents.showP()" routerLink="/Products/Headphones" class="item-text">Headphones</button>
+                <br><br>
+
+              </li>
+
+              <li>
+                <button (click)="slected([H,F,C],!appComponents.showProductsCat,P)" (click)="appComponents.showP()" routerLink="/Products/USB Cables" class="item-text">Cables</button>
+                <br><br>
+              </li>
+              <br>
+
+              <li>
+                <button (click)="slected([H,F,C],!appComponents.showProductsCat,P)" (click)="appComponents.showP()" routerLink="/Products/Monitors" class="item-text">Monitors</button>
+                <br><br>
+              </li>
+              <li>
+                <button (click)="slected([H,F,C],!appComponents.showProductsCat,P)" (click)="appComponents.showP()" routerLink="/Products/Webcams" class="item-text">Webcams</button>
+                <br><br>
+              </li>
+            </ul>
+          </strong>
+        </div>
+      </a>
+      <br>      <br>
+
+      <a #F id="F" (click)="slected([P,H,C],false,F)" routerLink="/FAQs" class="btns a">FAQs</a>
+      <br>      <br>
+
+      <a #C id="C" (click)="slected([P,F,H],false,C)" routerLink="/ContactUs" class="btns a">Contact Us</a>
+      <br>      <br>
+
+    </strong>
+  </div>

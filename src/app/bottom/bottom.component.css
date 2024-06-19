@@ -1,0 +1,199 @@
+.buttom{
+    background:#030712 ;
+    width: 100%;
+    color: white;
+
+}
+.sss{
+    width: 50%;
+    margin-left: 10%;
+    margin-top:3% ;
+}
+.sss h4{
+    font-size: 18px;
+}
+.sss p{
+    font-size: 17px;
+    color: rgb(209 213 219);
+}
+.input{
+    width:50%;
+    padding: 1.8%;
+    border-radius: 5px;
+    background: #374151;
+    outline: none;
+    border: none;
+    color: white;
+}
+.input::placeholder{
+    color:rgb(255 255 255 0.9) ;
+
+}
+.mail{
+    width: 6%;
+    height: 48px;
+    margin-top: -6.3%;
+    padding: 1.85%;
+    border-radius: 5px 0px 0px 5px;
+    background: #374151;
+    outline: none;
+    border: none;
+}
+.btns{
+  width: 30%;
+  background-color: #330740;
+  color: white;
+  padding: 11px;
+  margin-left: 53%;
+  font-size: 1.15rem;
+  margin-top: -13%;
+  }
+  #in {
+    background: url(/assets/in.png) no-repeat center center;
+    background-size: contain; 
+    width: 50px;
+    height: 50px;
+  }
+  #in:hover{
+ background: url(/assets/in1.png);
+ background-size: contain; 
+
+ background-repeat: no-repeat;
+
+  }
+  #face {
+    background: url(/assets/face.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px;
+  }
+  #face:hover{
+ background: url(/assets/face1.png);
+ background-size: contain; 
+ background-repeat: no-repeat;
+
+  } 
+   #x{
+    background: url(/assets/x.png);
+    width: 55px;
+    background-size: contain;
+    height: 55px;
+    background-repeat: no-repeat;
+
+  }
+  #x:hover{
+ background: url(/assets/x1.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+
+  } 
+   #insta {
+    background: url(/assets/insta.png);
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+
+  }
+  #insta:hover{
+ background: url(/assets/insta1.png);
+ background-size: contain;
+
+ background-repeat: no-repeat;
+
+  } 
+   #wat {
+    background: url(/assets/wat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 50px;
+    height: 50px;
+  }
+  #wat:hover{
+ background: url(/assets/wat1.png);
+ background-size: contain;
+
+ background-repeat: no-repeat;
+
+  }  
+  .folow{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5%;
+  }
+
+.pcata{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background-color: #030712;
+  color: white;
+}
+.pcata >*{
+margin-left: 15%;
+}
+.pcata h5{
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-left: 15%;
+}
+.products{
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% ;
+}
+a{
+  font-weight: 900;
+  color: #330740;
+  font-size: 1.0rem;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.company {
+  margin-top: -22%;
+}
+.company h5{
+  margin-left: -1%;
+}
+  @media (max-width:1080px) {
+    .folow{
+      grid-template-columns: 7% 7% 7% 7% 7% ;
+    }
+  
+    .sss{
+      width: 100%;
+    }
+    .mail{
+      width: 6%;
+      height: 45px;
+      margin-top: -6.7%;
+      padding: 1.85%;
+      border-radius: 5px 0px 0px 5px;
+      background: #374151;
+      outline: none;
+      border: none;
+    }
+
+  }
+  @media (min-width:1080px) {
+    .pcata{
+      display: grid;
+      grid-template-columns: 80% 20%;
+      background-color: #030712;
+      color: white;
+      width: 40%;
+      margin-left: 50%;
+      margin-top: -16%;
+    }
+    .company{
+      margin-top: -35%;
+            }
+    
+  }
+  @media (min-width:720px) {
+   .btns{
+    margin-top:-8%
+   }
+  }
