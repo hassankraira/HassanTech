@@ -599,7 +599,7 @@
       }
       .Details{
         float: right;
-        margin-right: 66%;
+        margin-right: 75%;
         color: white;
         font-size: 135%;
         margin-top: 6%
@@ -614,7 +614,7 @@
     width: 65%;
 }
 .cccc{
-  margin-top: 100%;
+  margin-top: 135%;
   margin-left: 5%;
   color: white;
 }
@@ -623,5 +623,8 @@
 }
 .header2{
   font-size: 100%;
+}
+.hh1{
+  font-size: 150%;
 }
 }
