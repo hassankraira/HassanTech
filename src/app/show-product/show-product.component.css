@@ -599,7 +599,7 @@
       }
       .Details{
         float: right;
-        margin-right: 50%;
+        margin-right: 75%;
         color: #fff;
         width: 33%;
         font-size: 135%;
@@ -626,7 +626,7 @@
     width: 65%;
 }
 .cccc{
-  margin-top: 100%;
+  margin-top: 200%;
   margin-left: 5%;
   color: white;
 }
